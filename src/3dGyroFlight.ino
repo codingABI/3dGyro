@@ -186,11 +186,11 @@ void setup(void) {
   SERIALDEBUG.println(F("Initializing DMP..."));
   // load and configure the DMP
   devStatus = mpu.dmpInitialize();
-  // Calibration from https://wired.chillibasket.com/2015/01/calibrating-mpu6050/
-  mpu.setXGyroOffset(86);
-  mpu.setYGyroOffset(-27);
-  mpu.setZGyroOffset( 21);
-  mpu.setZAccelOffset(343);
+  // Calibration based on IMU_ZERO
+  mpu.setXGyroOffset(76);
+  mpu.setYGyroOffset(-25);
+  mpu.setZGyroOffset( 19);
+  mpu.setZAccelOffset(3871);
 
   // make sure it worked (returns 0 if so)
   if (devStatus == 0) {
