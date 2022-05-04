@@ -10,7 +10,7 @@
  * 28.04.2022, Initial version
  */
 
-#define DEBUG false  // true für Serial.print
+#define DEBUG false  // true for Serial.print
 #define SERIALDEBUG if (DEBUG) Serial
 
 #include <Adafruit_GFX.h>
