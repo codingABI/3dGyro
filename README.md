@@ -1,5 +1,5 @@
 # 3dGyro
-3d object rotated by a gyro sensor MPU6050 on an Arduino Uno/Nano with a SSD1306 OLED 128x64 pixel display.
+3d object rotated by a gyroscope sensor MPU6050 on an Arduino Uno/Nano with a SSD1306 OLED 128x64 pixel display.
 
 ![breadboard](/assets/images/Breadboard.svg) 
 
